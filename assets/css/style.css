@@ -90,20 +90,26 @@ p {
     color: #ffffff;
 }
 
-/* cleaned up superfluous tags */
+/* cleaned up superfluous tags and condensed */
 
-.benefit {
+.benefit-lead, 
+.benefit-cost,
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefit-lead h3, 
+.benefit-cost h3,
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 
-.benefit img {
+.benefit-lead img, 
+.benefit-cost img,
+.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -134,7 +140,7 @@ p {
     font-size: 36px;
 }
 
-/* used tag instead of class */
+/* used footer instead of class */
 footer {
     padding: 30px;
     clear: both;
